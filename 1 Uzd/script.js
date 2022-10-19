@@ -1,13 +1,10 @@
 let x = +prompt("Įveskite skaičių");
-skacius = x / 2;
-console.log("arLyginisArNelyginis" + skaicius);
+console.log(arLyginisArNelyginis(x));
 
 function arLyginisArNelyginis(x) {
-    if (x / 2);{
-        return true;
+    if (x % 2 == 0) {
+        true
+    } else {
+        false
     }
-
-    else {
-        return false;
-    }
-}
+} 

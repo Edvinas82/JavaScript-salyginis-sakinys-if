@@ -1,18 +1,16 @@
-let x = +prompt("Įveskite pirmą skaičių");
-let y = +prompt("Įveskite anrą skaičių");
-skaicius = (x, y);
-console.log("mazesnisDidesnisIrlygusSkaicius" + skaicius);
+x = +prompt("Įveskite pirmą skaičių");
+y = +prompt("Įveskite antrą skaičių");
+sandauga = x * y;
+suma = x + y;
+console.log(arDaugiau);
 
-function mazesnisDidesnisIrLygusSkaicius(x, y) {
-    if (x > y) {
-        return "-1";
-    }
-    else if (x = y) {
-        return "0";
-    }
 
-    else if (x < y) {
-        return "1";
+
+function arDaugiau(sandauga, suma) {
+    if (+sandauga > +suma) {
+        return true;
     }
+    else (+sandauga <= +suma)
+        return false;
     
 }
