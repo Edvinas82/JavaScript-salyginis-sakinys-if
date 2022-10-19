@@ -1,8 +1,8 @@
 let  x = +prompt("Įveskite skaičių");
-console.log(kartotinis);
+console.log(kartotinis(x));
 
 function kartotinis(x) {
-    if (x/5) {
+    if (x%5 == 0) {
         return true;
     }
     
