@@ -2,7 +2,7 @@ x = +prompt("Įveskite pirmą skaičių");
 y = +prompt("Įveskite antrą skaičių");
 sandauga = x * y;
 suma = x + y;
-console.log(arDaugiau);
+console.log(arDaugiau(sandauga, suma));
 
 
 
