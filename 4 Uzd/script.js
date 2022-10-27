@@ -7,10 +7,10 @@ console.log(arDaugiau(sandauga, suma));
 
 
 function arDaugiau(sandauga, suma) {
-    if (+sandauga > +suma) {
+    if (sandauga > suma) {
         return true;
     }
-    else (+sandauga <= +suma)
+    else (sandauga <= suma)
         return false;
     
 }
